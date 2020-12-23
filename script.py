@@ -94,6 +94,10 @@ reg_avg_charges = average_by_location(master_records, "Charges")
 reg_avg_age = average_by_location(master_records, "Age")
 reg_avg_bmi = average_by_location(master_records, "BMI")
 reg_avg_child = average_by_location(master_records, "Children")
+print(reg_avg_charges)
+print(reg_avg_age)
+print(reg_avg_bmi)
+print(reg_avg_child)
 
 def smoker_probability(master_records):
     sw_total, se_total, nw_total, ne_total = 0, 0, 0, 0
